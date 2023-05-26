@@ -1,0 +1,70 @@
+
+Prepare User story & Testcase doc
+
+1)gmail login
+2)compose mail
+3)delete a mail
+4)search a mail
+5)draft a mail
+
+
+
+
+
+
+User story -> Testcase doc
+
+1. Gmail Login
+Test scenario:
+1.As an admin,
+I have to validate user login
+
+Acceptance criteria or Testcases:
+a)Validate gmail login with valid uid and pwd.
+b)Validate gmail login with invalid uid and pwd, it should display invalid uid and pwd
+c)With valid uid and pwd, it should direct to home page
+
+
+
+2. Gmail compose mail
+Test Scenario:
+As an admin, I have to validate compose mail.
+
+Acceptance criteria or Testcases:
+a)validate the compose mail with valid mail id and msg body.
+b)validate the compose mail with invalid mail id and msg body, it should send the mail.
+c)validate the compose mail with attachments
+
+
+3. Gmail Delete mail
+Test Scenario:
+As an admin, I have to validate delete mail.
+
+Acceptance criteria or Testcases:
+a)delete the single mail in inbox and validate if it is deleted or not.
+b)delete the multiple mail in inbox and validate if it is deleted or not.
+c)check the deleted mail by using search bar if it is deleted or not.
+
+
+
+4. Gmail Search mail
+Test Scenario:
+As an admin, I have to validate search mail.
+
+Acceptance criteria or Testcases:
+a)Search a certain mail from the inbox and validate whether it is found or not
+b)Search a non existing user or mail and validate it
+c)without entering any search contents, check whether the serach button is displaying any mail or not
+
+
+
+
+5.Draft a mail
+Test Scenario:
+As an admin, I have to draft a mail.
+Acceptance criteria or Testcases:
+
+a)validate the compose mail without a mail id and not sending, whether it is drafted or not.
+b)verify the drafted mail is available in drafts tab or not
+c)open a mail in drafts, and verify you are able to send it to a valid mail id
+
